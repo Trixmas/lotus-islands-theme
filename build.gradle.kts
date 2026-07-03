@@ -6,11 +6,10 @@ plugins {
 }
 
 group = "fr.moussax"
-version = "1.1.1"
+version = providers.gradleProperty("pluginVersion").getOrElse("0.0.0-dev")
 
 repositories {
     mavenCentral()
-
     intellijPlatform {
         defaultRepositories()
     }
@@ -26,6 +25,16 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+intellijPlatform {
+    pluginConfiguration {
+        changeNotes = providers.environmentVariable("RELEASE_NOTES").getOrElse("")
+    }
+
+    publishing {
+        token = providers.environmentVariable("PUBLISH_TOKEN")
+    }
 }
 
 tasks.test {

@@ -2,7 +2,8 @@
     <id>fr.moussax.lotus-islands-theme</id>
     <name>Lotus Islands Theme</name>
     <vendor url="https://moussax.vercel.app/theme" email="codewithmoussa@gmail.com">Moussa</vendor>
-    <version>1.1.1</version>
+
+    <!-- version and change-notes are patched at build time by intellijPlatform.pluginConfiguration -->
 
     <description><![CDATA[
     <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
@@ -19,33 +20,6 @@
         </ul>
     </main>
     ]]></description>
-
-    <change-notes><![CDATA[
-    <b>Version 1.1.1</b>
-    <ul>
-      <li>Fixed background rendering artifacts causing opaque corner clipping on rounded dialogs.</li>
-      <li>Refined primary button styling to fix border masking and ensure crisp, native-looking focus rings.</li>
-    </ul>
-
-    <b>Version 1.1.0</b>
-    <ul>
-      <li>Lotus Islands Dark:
-        <ul>
-          <li>Updated core foreground, background, and border colors for a more refined look</li>
-          <li>Refined typography contrast for better readability of active and muted text</li>
-          <li>Integrated full design system colors including new success and warning states</li>
-          <li>Redesigned status components, including validation tooltips, progress bars, and tool window notifications</li>
-          <li>Adjusted console background and inline parameter hints to match the theme</li>
-        </ul>
-      </li>
-      <li>Lotus Islands Light:
-        <ul>
-          <li>Overhauled syntax colors and UI elements to ensure high contrast and readability</li>
-          <li>Applied design system colors consistently across all active, hovered, selected, and disabled UI states</li>
-        </ul>
-      </li>
-    </ul>
-  ]]></change-notes>
 
     <idea-version since-build="253"/>
     <depends>com.intellij.modules.platform</depends>
