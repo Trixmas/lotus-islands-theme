@@ -21,8 +21,11 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
         run: echo "value=${TAG#v}" >> "$GITHUB_OUTPUT"
 
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
       - name: Publish to JetBrains Marketplace
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           RELEASE_NOTES: ${{ github.event.release.body }}
-        run: ./gradlew publishPlugin -PpluginVersion=${{ steps.version.outputs.value }}gin
+        run: ./gradlew publishPlugin -PpluginVersion=${{ steps.version.outputs.value }}
