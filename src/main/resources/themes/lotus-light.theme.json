@@ -431,7 +431,7 @@
       "disabledUnderlineColor": "disabled",
       "hoverColor": "highlight",
       "focusColor": "muted",
-      "contentAreaColor": "highlight"
+      "contentAreaColor": "background"
     },
     "Table": {
       "foreground": "foreground",
@@ -502,7 +502,7 @@
     },
     "ToolBar": {
       "foreground": "foreground",
-      "background": "contrast",
+      "background": "background",
       "borderHandleColor": "border",
       "floatingForeground": "text"
     },
