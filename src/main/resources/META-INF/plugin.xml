@@ -7,18 +7,20 @@
 
     <description><![CDATA[
     <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
-        <h1>Lotus Islands Theme</h1>
-        <p>
-            The beloved <b>Lotus</b> color scheme, beautifully adapted with several enhancements for the new <b>JetBrains Islands UI</b> (2025.3+).
-            Based on the original Lotus Theme from <b style="text-decoration: underline; text-underline-offset: 0.25rem">Brian Lai</b>.
-        </p>
+    <h1>Lotus Islands Theme</h1>
+    <p>
+        A <b>Lotus</b>-derived color scheme built specifically for the new <b>JetBrains Islands UI</b> (2025.3+), with improved contrast and accessibility, and a consistent set of primary colors within a unified design system.
+    </p>
 
-        <p>Includes a dark theme and light theme.</p>
-        <ul>
-            <li>Lotus Islands Dark</li>
-            <li>Lotus Islands Light</li>
-        </ul>
-    </main>
+    <p>Includes both a dark and a light theme:</p>
+    <ul>
+        <li>Lotus Islands Dark</li>
+        <li>Lotus Islands Light</li>
+    </ul>
+    <p style="opacity: 0.6; font-size: 13px">
+        Original color palette based from the Lotus Theme by Brian Lai.
+    </p>
+</main>
     ]]></description>
 
     <idea-version since-build="253"/>
