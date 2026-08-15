@@ -221,7 +221,7 @@
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveForeground": "selectionForeground",
-      "selectionInactiveBackground": "transparent"
+      "selectionInactiveBackground": "highlight"
     },
     "MemoryIndicator": {
       "allocatedBackground": "background",
