@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "fr.moussax"
-version = providers.gradleProperty("pluginVersion").getOrElse("0.0.0-dev")
+version = providers.gradleProperty("pluginVersion").getOrElse("1.1.4")
 
 repositories {
     mavenCentral()

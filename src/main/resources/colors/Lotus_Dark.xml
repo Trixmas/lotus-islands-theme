@@ -76,6 +76,8 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="727072" />
     </colors>
     <attributes>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD"/>
+        <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES" baseAttributes="INSTANCE_FIELD_ATTRIBUTES"/>
         <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ffd866" />
@@ -643,6 +645,7 @@
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
                 <option name="FOREGROUND" value="fcfcfa" />
+                <option name="FONT_TYPE" value="0"/>
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
