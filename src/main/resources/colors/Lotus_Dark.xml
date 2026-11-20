@@ -21,11 +21,11 @@
         <option name="ANNOTATIONS_COLOR" value="fffbf7" />
         <option name="CARET_COLOR" value="ffb3d6" />
         <option name="CARET_ROW_COLOR" value="212121" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="0E0F11" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="141414" />
         <option name="DELETED_LINES_COLOR" value="ff6188" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
-        <option name="DOCUMENTATION_COLOR" value="0E0F11" />
+        <option name="DOCUMENTATION_COLOR" value="141414" />
         <option name="FILESTATUS_ADDED" value="a9dc76" />
         <option name="FILESTATUS_COPIED" value="a9dc76" />
         <option name="FILESTATUS_DELETED" value="727072" />
@@ -49,8 +49,8 @@
         <option name="FILESTATUS_modifiedOutside" value="78dce8" />
         <option name="GUTTER_BACKGROUND" value="121212" />
         <option name="INDENT_GUIDE" value="333333" />
-        <option name="INFORMATION_HINT" value="0E0F11" />
-        <option name="LINE_NUMBERS_COLOR" value="5b595c" />
+        <option name="INFORMATION_HINT" value="141414" />
+        <option name="LINE_NUMBERS_COLOR" value="85818A" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
         <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
         <option name="MODIFIED_LINES_COLOR" value="fc9867" />
@@ -62,11 +62,11 @@
         <option name="RIGHT_MARGIN_COLOR" value="262626" />
         <option name="SELECTED_INDENT_GUIDE" value="78dce8" />
         <option name="SELECTED_TEARLINE_COLOR" value="78dce8" />
-        <option name="SELECTION_BACKGROUND" value="222222" />
+        <option name="SELECTION_BACKGROUND" value="412464" />
         <option name="SELECTION_FOREGROUND" value="ffffff" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="222222" />
         <option name="TEARLINE_COLOR" value="3b3539" />
-        <option name="TOOLTIP" value="0E0F11" />
+        <option name="TOOLTIP" value="141414" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="727072" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="59575a" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="ff6188" />
@@ -171,11 +171,7 @@
                 <option name="FOREGROUND" value="78dce8" />
             </value>
         </option>
-        <option name="BNF_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="222222" />
-            </value>
-        </option>
+        <option name="BNF_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
         <option name="BNF_NUMBER">
             <value>
                 <option name="FOREGROUND" value="f59762" />
@@ -229,11 +225,7 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="CLASS_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="222222" />
-            </value>
-        </option>
+        <option name="CLASS_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="COFFEESCRIPT.BAD_CHARACTER">
             <value>
                 <option name="EFFECT_COLOR" value="f65f87" />
@@ -554,7 +546,7 @@
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="727072" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -590,7 +582,7 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="727072" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -603,13 +595,13 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
             <value>
-                <option name="FOREGROUND" value="727072" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
         <option name="DEFAULT_DOC_MARKUP">
             <value>
-                <option name="FOREGROUND" value="727072" />
+                <option name="FOREGROUND" value="A3A0AA" />
             </value>
         </option>
         <option name="DEFAULT_DOT">
@@ -667,7 +659,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="ff4c8f" />
+                <option name="FOREGROUND" value="FF75A2" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -678,7 +670,7 @@
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="727072" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -791,19 +783,19 @@
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="41454b" />
+                <option name="BACKGROUND" value="222429" />
                 <option name="ERROR_STRIPE_COLOR" value="656e76" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="264b33" />
+                <option name="BACKGROUND" value="203A2A" />
                 <option name="ERROR_STRIPE_COLOR" value="447152" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="12404b" />
+                <option name="BACKGROUND" value="123643" />
                 <option name="ERROR_STRIPE_COLOR" value="43698d" />
             </value>
         </option>
@@ -875,8 +867,8 @@
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ab9df2" />
-                <option name="EFFECT_COLOR" value="78dce8" />
+                <option name="FOREGROUND" value="A259FB" />
+                <option name="EFFECT_COLOR" value="A259FB" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -998,8 +990,8 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="78dce8" />
-                <option name="EFFECT_COLOR" value="78dce8" />
+                <option name="FOREGROUND" value="B57AFC" />
+                <option name="EFFECT_COLOR" value="B57AFC" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1070,14 +1062,14 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="a3a3a3" />
+                <option name="FOREGROUND" value="ADADAD" />
                 <option name="BACKGROUND" value="404040" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
                 <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="e91e63" />
+                <option name="BACKGROUND" value="8247C9" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
@@ -1102,11 +1094,7 @@
                 <option name="FOREGROUND" value="78dce8" />
             </value>
         </option>
-        <option name="JFLEX_MACROS_REF">
-            <value>
-                <option name="FOREGROUND" value="222222" />
-            </value>
-        </option>
+        <option name="JFLEX_MACROS_REF" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="JS.DEBUGGER_STMT">
             <value>
                 <option name="FOREGROUND" value="ff6188" />
@@ -2653,7 +2641,7 @@
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="222222" />
+                <option name="BACKGROUND" value="382453" />
             </value>
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
@@ -2772,14 +2760,14 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="fcfcfa" />
-                <option name="BACKGROUND" value="0E0F11" />
+                <option name="BACKGROUND" value="141414" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="222222" />
-                <option name="BACKGROUND" value="f8e71c" />
+                <option name="FOREGROUND" value="FFFFFF" />
+                <option name="BACKGROUND" value="8247C9" />
             </value>
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -2841,7 +2829,7 @@
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="222222" />
+                <option name="BACKGROUND" value="3E2957" />
             </value>
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
