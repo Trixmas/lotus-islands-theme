@@ -4,11 +4,16 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: read
+
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: refs/tags/${{ github.event.release.tag_name }}
 
       - uses: actions/setup-java@v4
         with:
@@ -21,11 +26,35 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
         run: echo "value=${TAG#v}" >> "$GITHUB_OUTPUT"
 
+      - name: Render changelog for JetBrains
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PLUGIN_VERSION: ${{ steps.version.outputs.value }}
+        run: |
+          if ! notes=$(awk -v heading="## [$PLUGIN_VERSION]" '
+            /^## / { in_release = ($0 == heading) }
+            in_release && $0 != heading && /[^[:space:]]/ { has_notes = 1 }
+            in_release && $0 != heading { print }
+            END { if (!has_notes) exit 1 }
+          ' CHANGELOG.md); then
+            echo "::error::Add a non-empty ## [$PLUGIN_VERSION] section to CHANGELOG.md at the release tag."
+            exit 1
+          fi
+
+          jq -n --arg text "$notes" '{text: $text, mode: "markdown"}' |
+            gh api --method POST markdown --input - > "$RUNNER_TEMP/release-notes.html"
+          if ! grep -q '[^[:space:]]' "$RUNNER_TEMP/release-notes.html"; then
+            echo "::error::GitHub returned empty HTML for the $PLUGIN_VERSION changelog."
+            exit 1
+          fi
+
       - name: Make gradlew executable
         run: chmod +x gradlew
 
       - name: Publish to JetBrains Marketplace
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          RELEASE_NOTES: ${{ github.event.release.body }}
-        run: ./gradlew publishPlugin -PpluginVersion=${{ steps.version.outputs.value }}
+          PLUGIN_VERSION: ${{ steps.version.outputs.value }}
+        run: |
+          RELEASE_NOTES=$(cat "$RUNNER_TEMP/release-notes.html") \
+            ./gradlew publishPlugin "-PpluginVersion=$PLUGIN_VERSION"
