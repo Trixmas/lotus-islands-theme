@@ -23,9 +23,11 @@ Light uses a nearly white editor, Dark uses charcoal, and Midnight uses a near-b
 
 ## Screenshots
 
-![Lotus Dark editor and Islands UI](docs/lotus-islands-dark.png)
-
-![Lotus Light editor and Islands UI](docs/lotus-islands-light.png)
+| Palette | Light | Dark | Midnight |
+| --- | --- | --- | --- |
+| **Lotus** | ![Lotus Light editor and Islands UI](docs/lotus-light.png) | ![Lotus Dark editor and Islands UI](docs/lotus-dark.png) | ![Lotus Midnight editor and Islands UI](docs/lotus-midnight.png) |
+| **Copper** | ![Lotus Copper Light editor and Islands UI](docs/lotus-copper-light.png) | ![Lotus Copper Dark editor and Islands UI](docs/lotus-copper-dark.png) | ![Lotus Copper Midnight editor and Islands UI](docs/lotus-copper-midnight.png) |
+| **Iridium** | ![Lotus Iridium Light editor and Islands UI](docs/lotus-iridium-light.png) | ![Lotus Iridium Dark editor and Islands UI](docs/lotus-iridium-dark.png) | ![Lotus Iridium Midnight editor and Islands UI](docs/lotus-iridium-midnight.png) |
 
 ## Release notes
 
