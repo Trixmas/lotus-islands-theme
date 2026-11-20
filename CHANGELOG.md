@@ -6,16 +6,22 @@ workflow reads the same section from the tagged commit for JetBrains Marketplace
 
 ## [Unreleased]
 
+## [1.2.0]
+
 ### Added
 
-- Added Lotus Islands Midnight with the original near-black background.
+- Added Lotus Copper and Lotus Iridium in Light, Dark, and Midnight. Each has its own UI palette and syntax colors for keywords, types, declarations, and constants.
+- Added Lotus Midnight for a near-black editor. Lotus Dark now uses a lighter charcoal editor and window frame.
 
 ### Changed
 
-- Lightened the Lotus Islands Dark editor and window frame.
-- Applied the Lotus purple accent to switches, search, progress, and drag-and-drop states.
-- Improved keyboard focus, inactive selections, and editor readability across the themes.
-- Refined Light’s selection, breadcrumbs, and diff highlights. Improved comment and deleted-line contrast in Dark and Midnight.
+- Shortened the names in the theme picker, including Lotus Light, Lotus Dark, and Lotus Midnight.
+- Applied each palette’s accent to switches, search, progress, and drag-and-drop states. Refined keyboard focus and inactive selections.
+- Improved the contrast of comments and syntax on search matches and diff lines. Refined selections and breadcrumbs in Lotus Light.
+
+### Fixed
+
+- Restored consistent outlines on dropdowns and spinners and visible island borders in Copper Light and Iridium Light.
 
 ## [1.1.4]
 

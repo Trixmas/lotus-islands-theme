@@ -546,7 +546,7 @@
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="8C8992" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -582,7 +582,7 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="8C8992" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -595,13 +595,13 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
             <value>
-                <option name="FOREGROUND" value="8C8992" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
         <option name="DEFAULT_DOC_MARKUP">
             <value>
-                <option name="FOREGROUND" value="8C8992" />
+                <option name="FOREGROUND" value="A3A0AA" />
             </value>
         </option>
         <option name="DEFAULT_DOT">
@@ -659,7 +659,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="ff4c8f" />
+                <option name="FOREGROUND" value="FF75A2" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -670,7 +670,7 @@
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="8C8992" />
+                <option name="FOREGROUND" value="A3A0AA" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -789,13 +789,13 @@
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="264b33" />
+                <option name="BACKGROUND" value="203A2A" />
                 <option name="ERROR_STRIPE_COLOR" value="447152" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="12404b" />
+                <option name="BACKGROUND" value="123643" />
                 <option name="ERROR_STRIPE_COLOR" value="43698d" />
             </value>
         </option>
@@ -2641,7 +2641,7 @@
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="412464" />
+                <option name="BACKGROUND" value="382453" />
             </value>
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
@@ -2829,7 +2829,7 @@
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="563584" />
+                <option name="BACKGROUND" value="3E2957" />
             </value>
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">

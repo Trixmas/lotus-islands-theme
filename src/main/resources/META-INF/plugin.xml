@@ -6,22 +6,21 @@
     <!-- version and change-notes are patched at build time by intellijPlatform.pluginConfiguration -->
 
     <description><![CDATA[
-    <main style="padding: 0 2rem; line-height: 1.5; font-size: 18px">
-    <h1>Lotus Islands Theme</h1>
     <p>
-        A <b>Lotus</b>-derived color scheme built specifically for the new <b>JetBrains Islands UI</b> (2025.3+), with improved contrast and accessibility, and a consistent set of primary colors within a unified design system.
+        Lotus Islands is a collection of nine UI themes and matching editor color schemes for JetBrains IDEs with the Islands UI (2025.3+).
+        Each theme is designed for readable syntax, visible keyboard focus, and clear boundaries between the editor and tool windows.
     </p>
 
-    <p>Includes three themes:</p>
+    <p>Each palette comes in Light, Dark, and Midnight.</p>
     <ul>
-        <li>Lotus Islands Dark</li>
-        <li>Lotus Islands Midnight</li>
-        <li>Lotus Islands Light</li>
+        <li><b>Lotus</b> pairs violet accents with neutral surfaces.</li>
+        <li><b>Iridium</b> pairs steel-blue accents with cool slate surfaces, indigo keywords, and blue function declarations.</li>
+        <li><b>Copper</b> pairs terracotta accents with warm neutrals, clay-colored keywords, and bronze function declarations.</li>
     </ul>
-    <p style="opacity: 0.6; font-size: 13px">
-        Original color palette based from the Lotus Theme by Brian Lai.
+    <p>
+        Light uses a nearly white editor, Dark uses charcoal, and Midnight uses a near-black canvas.
+        Each palette carries its accent through active tabs, focus outlines, and search highlights.
     </p>
-</main>
     ]]></description>
 
     <idea-version since-build="253"/>
@@ -31,6 +30,12 @@
         <themeProvider id="fr.moussax.lotus-islands-theme.dark" path="/themes/lotus-dark.theme.json"/>
         <themeProvider id="fr.moussax.lotus-islands-theme.light" path="/themes/lotus-light.theme.json"/>
         <themeProvider id="fr.moussax.lotus-islands-theme.midnight" path="/themes/lotus-midnight.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.iridium.light" path="/themes/lotus-iridium-light.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.iridium.dark" path="/themes/lotus-iridium-dark.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.iridium.midnight" path="/themes/lotus-iridium-midnight.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.copper.light" path="/themes/lotus-copper-light.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.copper.dark" path="/themes/lotus-copper-dark.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.copper.midnight" path="/themes/lotus-copper-midnight.theme.json"/>
     </extensions>
 
     <actions>
