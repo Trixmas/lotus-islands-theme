@@ -12,9 +12,10 @@
         A <b>Lotus</b>-derived color scheme built specifically for the new <b>JetBrains Islands UI</b> (2025.3+), with improved contrast and accessibility, and a consistent set of primary colors within a unified design system.
     </p>
 
-    <p>Includes both a dark and a light theme:</p>
+    <p>Includes three themes:</p>
     <ul>
         <li>Lotus Islands Dark</li>
+        <li>Lotus Islands Midnight</li>
         <li>Lotus Islands Light</li>
     </ul>
     <p style="opacity: 0.6; font-size: 13px">
@@ -29,6 +30,7 @@
         <!-- Add your extensions here -->
         <themeProvider id="fr.moussax.lotus-islands-theme.dark" path="/themes/lotus-dark.theme.json"/>
         <themeProvider id="fr.moussax.lotus-islands-theme.light" path="/themes/lotus-light.theme.json"/>
+        <themeProvider id="fr.moussax.lotus-islands-theme.midnight" path="/themes/lotus-midnight.theme.json"/>
     </extensions>
 
     <actions>

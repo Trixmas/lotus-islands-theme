@@ -5,6 +5,19 @@
   "parentTheme": "Islands Light",
   "editorScheme": "/colors/Lotus_Light.xml",
   "colors": {
+    "Blue1": "selectionForeground",
+    "Blue2": "primaryHover",
+    "Blue3": "#753CB8",
+    "Blue4": "primaryButton",
+    "Blue5": "#9056D7",
+    "Blue6": "#A06AE2",
+    "Blue7": "#B081E9",
+    "Blue8": "#C49AF2",
+    "Blue9": "#D4B1F8",
+    "Blue10": "treeSelection",
+    "Blue11": "selectionBackground",
+    "Blue12": "#F4EBFF",
+    "Blue13": "#FAF6FF",
     "background": "#FFFFFF",
     "foreground": "#262626",
     "border": "#CED0D8",
@@ -68,7 +81,15 @@
       "underlinedBorderColor": "primary",
       "inactiveColoredFileBackground": "background",
       "underlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBackground": "muted",
+      "inactiveUnderlinedTabBorderColor": "inputBorder",
       "underTabsBorderColor": "border"
+    },
+    "Bookmark": {
+      "MnemonicCurrent": {
+        "background": "primaryButton",
+        "foreground": "primaryForeground"
+      }
     },
     "Borders": {
       "color": "border",
@@ -126,22 +147,16 @@
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
       "nonEditableBackground": "background",
-      "ArrowButton": {
-        "background": "background",
-        "iconColor": "foreground",
-        "disabledIconColor": "mutedForeground",
-        "nonEditableBackground": "background"
-      },
+      "ArrowButton.background": "background",
+      "ArrowButton.nonEditableBackground": "background",
       "disabledForeground": "mutedForeground",
       "disabledBackground": "disabled"
-    },
-    "ComboBoxButton": {
-      "background": "button"
     },
     "ComboPopup": {
       "border": "border"
     },
     "CompletionPopup": {
+      "matchForeground": "Blue3",
       "foreground": "foreground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "highlight"
@@ -155,8 +170,7 @@
       "errorFocusColor": "destructive",
       "inactiveErrorFocusColor": "destructive",
       "warningFocusColor": "warning",
-      "inactiveWarningFocusColor": "warning",
-      "focusWidth": 1
+      "inactiveWarningFocusColor": "warning"
     },
     "Counter": {
       "foreground": "selectionForeground"
@@ -174,8 +188,10 @@
       "underlinedTabBackground": "muted"
     },
     "DragAndDrop": {
-      "areaForeground": "foreground",
-      "areaBackground": "background"
+      "areaForeground": "selectionForeground",
+      "areaBackground": "selectionBackground",
+      "borderColor": "inputFocus",
+      "rowBackground": "selectionBackground"
     },
     "Editor": {
       "foreground": "foreground",
@@ -313,7 +329,6 @@
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
       "inactiveForeground": "mutedForeground",
-      "inactiveBackground": "muted",
       "disabledBackground": "disabled"
     },
     "Plugins": {
@@ -370,6 +385,7 @@
     "ProgressBar": {
       "trackColor": "highlight",
       "progressColor": "primary",
+      "progressCounterBackground": "primaryButton",
       "passedColor": "success",
       "passedEndColor": "success",
       "warningColor": "warning",
@@ -413,9 +429,13 @@
         "infoForeground": "text"
       },
       "Tab": {
-        "selectedForeground": "selectionForeground",
-        "selectedBackground": "highlight"
+        "selectedForeground": "primaryForeground",
+        "selectedBackground": "primaryButton"
       }
+    },
+    "SearchMatch": {
+      "startBackground": "selectionBackground",
+      "endBackground": "selectionBackground"
     },
     "SearchField": {
       "background": "transparent",
@@ -429,8 +449,10 @@
     },
     "Slider": {
       "background": "background",
-      "tickColor": "background",
-      "trackColor": "muted"
+      "tickColor": "inputBorder",
+      "trackColor": "inputBorder",
+      "buttonColor": "primaryButton",
+      "buttonBorderColor": "foreground"
     },
     "SpeedSearch": {
       "foreground": "foreground",
@@ -493,9 +515,7 @@
       "background": "background",
       "inactiveForeground": "mutedForeground",
       "selectionForeground": "selectionForeground",
-      "selectionBackground": "selectionBackground",
-      "inactiveBackground": "muted",
-      "disabledBackground": "disabled"
+      "selectionBackground": "selectionBackground"
     },
     "TextPane": {
       "foreground": "foreground",
@@ -517,11 +537,27 @@
         "hoverBackground": "transparent"
       }
     },
+    "ColorPalette": {
+      "toggle-on-bg": "primaryButton",
+      "toggle-on-border": "primaryButton",
+      "toggle-on-notch": "primaryForeground",
+      "toggle-focus-border": "inputFocus"
+    },
+    "PillButton": {
+      "blueForeground": "primary",
+      "blueBackground": "transparent",
+      "blueBorderColor": "primary",
+      "blueHoverForeground": "selectionForeground",
+      "blueHoverBackground": "selectionBackground",
+      "blueHoverBorderColor": "inputFocus"
+    },
     "ToggleButton": {
       "foreground": "foreground",
+      "onForeground": "primaryForeground",
+      "onBackground": "primaryButton",
       "offForeground": "foreground",
       "offBackground": "button",
-      "button": "button",
+      "buttonColor": "inputBorder",
       "borderColor": "inputBorder",
       "disabledText": "mutedForeground"
     },
@@ -551,11 +587,16 @@
       "linkForeground": "primary"
     },
     "ToolWindow": {
+      "background": "background",
       "Stripe": {
-        "borderColor": "transparent"
+        "borderColor": "transparent",
+        "DragAndDrop.separatorColor": "inputFocus"
       },
+      "DragAndDrop.areaBackground": "selectionBackground",
       "Button": {
-        "selectedBackground": "primary"
+        "selectedBackground": "primaryButton",
+        "DragAndDrop.buttonDropBackground": "selectionBackground",
+        "DragAndDrop.buttonDropBorderColor": "inputFocus"
       },
       "Header": {
         "background": "selectionBackground",
@@ -577,9 +618,8 @@
       "background": "transparent",
       "selectionForeground": "selectionForeground",
       "selectionBackground": "selectionBackground",
-      "selectionInactiveBackground": "muted",
-      "hash": "muted",
-      "selectionInactiveForeground": "foreground"
+      "selectionInactiveBackground": "Blue12",
+      "hash": "muted"
     },
     "UiDesigner": {
       "Panel": {
@@ -647,8 +687,25 @@
     },
     "window": "background",
     "windowBorder": "border",
+    "GotItTooltip": {
+      "background": "selectionBackground",
+      "foreground": "selectionForeground",
+      "borderColor": "inputFocus",
+      "linkForeground": "Blue3",
+      "linkUnderlineHoveredColor": "Blue3",
+      "secondaryActionForeground": "Blue3",
+      "stepForeground": "selectionForeground",
+      "Button": {
+        "foreground": "primaryForeground",
+        "startBackground": "primaryButton",
+        "endBackground": "primaryButton",
+        "startBorderColor": "primaryButton",
+        "endBorderColor": "primaryButton",
+        "contrastBackground": "primaryButton"
+      }
+    },
     "Focus": {
-      "borderColor": "primary"
+      "borderColor": "inputFocus"
     }
   },
   "icons": {
