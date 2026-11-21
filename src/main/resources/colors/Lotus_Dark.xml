@@ -1,8 +1,8 @@
-<scheme name="Lotus Islands Dark" version="142" parent_scheme="Darcula">
+<scheme name="Lotus Classic Dark" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">Idea</property>
         <property name="ideVersion">2025.3</property>
-        <property name="originalScheme">Lotus Islands Dark</property>
+        <property name="originalScheme">Lotus Classic Dark</property>
     </metaInfo>
     <option name="FONT_SCALE" value="1.0" />
     <option name="LINE_SPACING" value="1.2" />

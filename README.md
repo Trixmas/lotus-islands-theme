@@ -9,7 +9,7 @@ Lotus Islands Theme brings nine UI themes and matching editor color schemes to J
 
 | Palette | Light | Dark | Midnight |
 | --- | --- | --- | --- |
-| **Lotus**: Violet accents and neutral surfaces | Lotus Light | Lotus Dark | Lotus Midnight |
+| **Classic**: Violet accents and neutral surfaces | Lotus Classic Light | Lotus Classic Dark | Lotus Classic Midnight |
 | **Copper**: Terracotta accents, warm surfaces, and bronze function declarations | Lotus Copper Light | Lotus Copper Dark | Lotus Copper Midnight |
 | **Iridium**: Steel-blue accents, cool slate surfaces, and indigo keywords | Lotus Iridium Light | Lotus Iridium Dark | Lotus Iridium Midnight |
 
@@ -25,7 +25,7 @@ Light uses a nearly white editor, Dark uses charcoal, and Midnight uses a near-b
 
 | Palette | Light | Dark | Midnight |
 | --- | --- | --- | --- |
-| **Lotus** | ![Lotus Light editor and Islands UI](docs/lotus-light.png) | ![Lotus Dark editor and Islands UI](docs/lotus-dark.png) | ![Lotus Midnight editor and Islands UI](docs/lotus-midnight.png) |
+| **Classic** | ![Lotus Classic Light editor and Islands UI](docs/lotus-light.png) | ![Lotus Classic Dark editor and Islands UI](docs/lotus-dark.png) | ![Lotus Classic Midnight editor and Islands UI](docs/lotus-midnight.png) |
 | **Copper** | ![Lotus Copper Light editor and Islands UI](docs/lotus-copper-light.png) | ![Lotus Copper Dark editor and Islands UI](docs/lotus-copper-dark.png) | ![Lotus Copper Midnight editor and Islands UI](docs/lotus-copper-midnight.png) |
 | **Iridium** | ![Lotus Iridium Light editor and Islands UI](docs/lotus-iridium-light.png) | ![Lotus Iridium Dark editor and Islands UI](docs/lotus-iridium-dark.png) | ![Lotus Iridium Midnight editor and Islands UI](docs/lotus-iridium-midnight.png) |
 

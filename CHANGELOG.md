@@ -8,9 +8,13 @@ workflow reads the same section from the tagged commit for JetBrains Marketplace
 
 ## [1.2.1]
 
+### Changed
+
+- Renamed the original themes and matching editor color schemes to **Lotus Classic Light**, **Lotus Classic Dark**, and **Lotus Classic Midnight**.
+
 ### Fixed
 
-- Fixed a visible seam in the main toolbar when project colors are enabled in IntelliJ IDEA 2026.3 with Lotus Copper Light or Lotus Iridium Light.
+- Fixed a main toolbar background seam in Lotus Copper Light and Lotus Iridium Light when project colors are enabled in IntelliJ IDEA 2026.3.
 
 ## [1.2.0]
 
