@@ -6,6 +6,12 @@ workflow reads the same section from the tagged commit for JetBrains Marketplace
 
 ## [Unreleased]
 
+## [1.2.1]
+
+### Fixed
+
+- Fixed a visible seam in the main toolbar when project colors are enabled in IntelliJ IDEA 2026.3 with Lotus Copper Light or Lotus Iridium Light.
+
 ## [1.2.0]
 
 ### Added

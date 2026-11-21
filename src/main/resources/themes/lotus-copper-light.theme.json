@@ -45,7 +45,6 @@
     "errorBackground": "#FFF2F4",
     "warningBackground": "#FFF4DF",
     "islandBorder": "#BDAA99",
-    "frame": "#EEE6DC",
     "accentForeground": "#71321E",
     "inactiveSelectionBackground": "#F9EDE4"
   },
@@ -707,8 +706,7 @@
     },
     "Focus": {
       "borderColor": "inputFocus"
-    },
-    "MainWindow.background": "frame"
+    }
   },
   "icons": {
     "ColorPalette": {
